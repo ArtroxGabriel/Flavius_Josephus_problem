@@ -23,7 +23,7 @@ in
         fun {$ Is I} thread {Victim Is I} end end}
     Last
 end
-Value = {Josephus N K}
+Value = {Josephus2 N K}
 
 {Browse 'Josephus 1: Data-Driven Concurrent Version'}
 {Browse 'Carregando resultado para N ='#N#' e K = '#K#' ...'}
