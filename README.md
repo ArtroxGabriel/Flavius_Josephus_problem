@@ -36,11 +36,8 @@ Para executar o programa, basta executar o comando abaixo no terminal:
 $ echo "hello, pratica 4"
 ```
 
-<center>
-
+## Autores:
 | Nome | 
 |:-:|
 | Jonanthan Aires |
 | Antonio Gabriel |
-
-</center>
