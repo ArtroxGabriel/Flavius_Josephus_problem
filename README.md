@@ -14,6 +14,13 @@ Try to make both as concise and natural as possible in the model.For example,
 without short-circuiting an array of booleans is a natural data structure to
 represent the ring.Compare the structure of both programs with the two
 programs in `section 7.8.3`.
+
+| versão | filename |
+|:-:|:-:|
+| Data-Driven Concurrent |Josephus1.oz |
+| Active Object |Josephus2.oz |
+| The Sequential Stateful |Josephus3.oz|
+
 ---
 
 ### <<<<<< 2º >>>>>>
