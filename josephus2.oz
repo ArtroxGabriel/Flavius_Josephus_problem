@@ -1,7 +1,7 @@
 functor
-import Browser 
+import Browser
 define 
-    N = 69
+    N = 1000
     K = 3
     
     fun {NewActive Class Init}
@@ -56,13 +56,10 @@ define
         {A.N setSucc(A.1)} {A.1 kill(1 N)}
         Last
     end
-    
     Value = {Josephus N K}
-    
     
     {Browser.browse 'Josephus 2: Active Object Version'}
     {Browser.browse 'Carregando resultado para N ='#N#' e K = '#K#' ...'}
-    {Delay 1500}
     {Browser.browse Value}
  
 end

@@ -35,10 +35,8 @@ define
     Value = {Josephus2 N K}
     {Wait Value}
     EndTime = {Time.time}
-
     {Browser.browse 'Josephus 1: Data-Driven Concurrent Version'}
     {Browser.browse 'Carregando resultado para N ='#N#' e K = '#K#' ...'}
-    {Delay 1500}
     {Browser.browse (EndTime-StartTime)#Value}
 end
 
